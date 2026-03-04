@@ -1,73 +1,85 @@
-# React + TypeScript + Vite
+# 🧹 Sterlux Cleaning Company
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+> **Professional Cleaning Services in Nairobi, Kenya**
 
-Currently, two official plugins are available:
+**Live Site:** [sterlux-cleaning-company.vercel.app](https://sterlux-cleaning-company.vercel.app)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## About
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+**Sterlux Cleaning Company** is a premium cleaning services provider based in Nairobi, Kenya. This repository contains the official company website — built to help clients discover our services, view our work, and book a clean with ease.
 
-## Expanding the ESLint configuration
+Founded in 2019, Sterlux delivers spotless results and five-star experiences across Nairobi — one clean at a time.
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+---
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+## Services
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+| Service | Description |
+|---------|-------------|
+| 🏠 **Home Cleaning** | Full residential cleaning — all rooms, kitchen, bathrooms, vacuuming & mopping |
+| 🛏️ **Airbnb & Short-Stay Turnover** | Same-day turnovers, linen change, restocking & photo-ready staging |
+| 🏢 **Office & Commercial** | Discreet, thorough office cleaning that works around your schedule |
+| 🏗️ **Post-Construction Cleanup** | Debris removal, floor scrubbing, window cleaning & final polish |
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+---
+
+## Website Features
+
+- ✅ **Home Page** — Hero section, service overview, and "Why Sterlux" highlights
+- ✅ **About Page** — Company story, mission, certifications, and client testimonials
+- ✅ **Services Page** — Detailed breakdown of all packages with pricing
+- ✅ **Gallery Page** — Real job photos with category filters and a lightbox viewer
+- ✅ **Contact Page** — Inquiry form, direct contact info (phone/email), and embedded map
+- ✅ **WhatsApp Integration** — One-click WhatsApp booking button in the navbar
+- ✅ **Fully Responsive** — Optimised for mobile, tablet, and desktop
+
+---
+
+## Tech Stack
+
+| Tool | Purpose |
+|------|---------|
+| [React 19](https://react.dev) | UI framework |
+| [TypeScript](https://typescriptlang.org) | Type safety |
+| [Vite](https://vitejs.dev) | Build tool & dev server |
+| [React Router v7](https://reactrouter.com) | Client-side routing |
+| [Lucide React](https://lucide.dev) | Icons |
+| [Vercel](https://vercel.com) | Hosting & deployment |
+
+---
+
+## Getting Started (Local Development)
+
+```bash
+# Install dependencies
+npm install
+
+# Start the development server
+npm run dev
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+Open [http://localhost:5173](http://localhost:5173) in your browser.
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+```bash
+# Build for production
+npm run build
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+# Preview the production build
+npm run preview
 ```
+
+---
+
+## Contact
+
+| | |
+|--|--|
+| 📞 Phone | [0710 735 329](tel:+254710735329) \| [0717 707 503](tel:+254717707503) |
+| 📧 Email | [sterluxcleaning@gmail.com](mailto:sterluxcleaning@gmail.com) |
+| 📍 Location | Nairobi, Kenya |
+
+---
+
+© 2025 Sterlux Cleaning Company. All rights reserved.
