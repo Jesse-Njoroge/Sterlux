@@ -1,0 +1,358 @@
+/* Home.css — Updated with editorial hero + image-grid services */
+
+/* ─── HERO ─────────────────────────────────────────── */
+.hero-section {
+    position: relative;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    border-bottom: 10px solid #ffffff;
+}
+
+.hero-bg {
+    position: absolute;
+    inset: 0;
+    background-size: cover;
+    background-position: center top;
+    background-repeat: no-repeat;
+}
+
+.hero-overlay {
+    position: absolute;
+    inset: 0;
+    /* Much lighter — lets image + Sterlux attire show clearly */
+    background: linear-gradient(to right,
+            rgba(10, 14, 26, 0.62) 0%,
+            rgba(10, 14, 26, 0.38) 50%,
+            rgba(10, 14, 26, 0.08) 100%);
+}
+
+.hero-content {
+    position: relative;
+    z-index: 2;
+    padding-top: 6rem;
+    padding-bottom: 5rem;
+    padding-left: 5%;
+    padding-right: 1.5rem;
+    max-width: 560px;
+}
+
+/* Headline — serif */
+.hero-title {
+    font-family: Georgia, 'Times New Roman', serif;
+    color: #fff;
+    font-size: clamp(2.5rem, 5.5vw, 4rem);
+    font-weight: 700;
+    line-height: 1.1;
+    margin: 0 0 1.25rem;
+    font-style: normal;
+}
+
+/* Italic teal line */
+.hero-title-em {
+    font-style: italic;
+    color: #2191c0;
+    display: block;
+}
+
+.hero-subtitle {
+    color: rgba(255, 255, 255, 0.78);
+    font-size: 1rem;
+    line-height: 1.7;
+    margin-bottom: 2.25rem;
+    max-width: 440px;
+}
+
+.hero-actions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+/* CTA buttons – hero specific */
+.btn-hero-primary {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.75rem 1.75rem;
+    background: #2191c0;
+    color: #fff;
+    font-weight: 600;
+    font-size: 0.925rem;
+    border-radius: 4px;
+    text-decoration: none;
+    transition: background 0.2s ease, transform 0.2s ease;
+    font-family: var(--font-body);
+}
+
+.btn-hero-primary:hover {
+    background: #1a7aab;
+    transform: translateX(2px);
+}
+
+.btn-hero-outline {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.75rem 1.75rem;
+    background: rgba(255, 255, 255, 0.12);
+    color: #fff;
+    font-weight: 600;
+    font-size: 0.925rem;
+    border-radius: 4px;
+    text-decoration: none;
+    border: 1.5px solid rgba(255, 255, 255, 0.4);
+    backdrop-filter: blur(4px);
+    transition: background 0.2s ease;
+    font-family: var(--font-body);
+}
+
+.btn-hero-outline:hover {
+    background: rgba(255, 255, 255, 0.22);
+}
+
+/* ─── SERVICES IMAGE GRID ───────────────────────────── */
+
+/* "What We Do" header above the grid */
+.home-services-header {
+    background: #fff;
+    padding: 3rem 5% 2rem;
+    border-bottom: 6px solid #fff;
+}
+
+.home-services-overline {
+    display: inline-block;
+    font-size: 0.75rem;
+    font-weight: 700;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: #2191c0;
+    margin-bottom: 0.5rem;
+}
+
+.home-services-title {
+    font-family: Georgia, 'Times New Roman', serif;
+    font-size: clamp(1.6rem, 3vw, 2.2rem);
+    font-weight: 700;
+    color: #1a1a2e;
+    margin: 0;
+}
+
+.home-services-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 300px 300px;
+    gap: 6px;
+    background: #fff;
+}
+
+
+.home-svc-tile {
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    text-decoration: none;
+    display: block;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.home-svc-tile:hover .home-svc-overlay {
+    background: rgba(0, 0, 0, 0.52);
+}
+
+.home-svc-tile:hover .home-svc-label {
+    transform: translateY(-4px);
+}
+
+.home-svc-overlay {
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.42);
+    transition: background 0.3s ease;
+}
+
+.home-svc-label {
+    position: absolute;
+    bottom: 1.25rem;
+    left: 1.25rem;
+    display: flex;
+    flex-direction: column;
+    transition: transform 0.3s ease;
+}
+
+.home-svc-category {
+    font-size: 0.95rem;
+    font-weight: 700;
+    color: #fff;
+    font-family: Georgia, 'Times New Roman', serif;
+    line-height: 1.2;
+}
+
+.home-svc-subtitle {
+    font-size: 0.78rem;
+    color: rgba(255, 255, 255, 0.7);
+    font-weight: 500;
+    margin-top: 2px;
+    font-family: var(--font-body);
+}
+
+/* ─── WHY US ────────────────────────────────────────── */
+.why-section {
+    background: var(--white);
+}
+
+.why-inner {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 4rem;
+    align-items: center;
+}
+
+.why-text .overline {
+    display: inline-block;
+    font-size: 0.8rem;
+    font-weight: 700;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: var(--primary);
+    margin-bottom: 0.75rem;
+}
+
+.why-text h2 {
+    margin-bottom: 1rem;
+}
+
+.why-text>p {
+    margin-bottom: 1.5rem;
+}
+
+.why-checklist {
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+    margin-bottom: 2rem;
+    list-style: none;
+}
+
+.why-checklist li {
+    display: flex;
+    align-items: center;
+    gap: 0.625rem;
+    font-size: 0.95rem;
+    font-weight: 500;
+    color: var(--text-primary);
+}
+
+.check-icon {
+    color: var(--primary);
+    flex-shrink: 0;
+}
+
+.why-cards {
+    display: flex;
+    flex-direction: column;
+    gap: 1.25rem;
+}
+
+.why-card {
+    display: flex;
+    gap: 1.25rem;
+    padding: 1.25rem;
+    background: var(--surface);
+    border-radius: var(--radius-md);
+    border: 1px solid var(--border);
+    transition: transform var(--transition), box-shadow var(--transition);
+}
+
+.why-card:hover {
+    transform: translateX(6px);
+    box-shadow: var(--shadow-md);
+}
+
+.why-card h4 {
+    font-size: 1rem;
+    margin-bottom: 0.25rem;
+}
+
+.why-card p {
+    font-size: 0.875rem;
+}
+
+/* ─── CTA ───────────────────────────────────────────── */
+.cta-section {
+    background: linear-gradient(135deg, var(--primary-dark) 0%, var(--primary) 60%, var(--primary-light) 100%);
+    padding: 5rem 0;
+}
+
+.cta-inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 2rem;
+    flex-wrap: wrap;
+}
+
+.cta-section h2 {
+    color: var(--white);
+    margin-bottom: 0.5rem;
+}
+
+.cta-section p {
+    color: rgba(255, 255, 255, 0.75);
+    font-size: 1.05rem;
+}
+
+.cta-actions {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+/* ─── OVERLINE UTILITY ──────────────────────────────── */
+.overline {
+    display: inline-block;
+    font-size: 0.8rem;
+    font-weight: 700;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: var(--primary);
+    margin-bottom: 0.75rem;
+}
+
+/* ─── RESPONSIVE ────────────────────────────────────── */
+@media (max-width: 1024px) {
+    .why-inner {
+        grid-template-columns: 1fr;
+        gap: 2.5rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .home-services-grid {
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 200px 200px;
+    }
+
+    .hero-content {
+        max-width: 100%;
+    }
+
+    .cta-inner {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .cta-actions {
+        justify-content: center;
+    }
+}
+
+@media (max-width: 480px) {
+    .home-services-grid {
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 160px 160px;
+    }
+}
