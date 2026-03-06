@@ -1,4 +1,4 @@
-# 🧹 Sterlux Cleaning Company
+# Sterlux Cleaning Company
 
 > **Professional Cleaning Services in Nairobi, Kenya**
 
@@ -18,10 +18,10 @@ Founded in 2019, Sterlux delivers spotless results and five-star experiences acr
 
 | Service | Description |
 |---------|-------------|
-| 🏠 **Home Cleaning** | Full residential cleaning — all rooms, kitchen, bathrooms, vacuuming & mopping |
-| 🛏️ **Airbnb & Short-Stay Turnover** | Same-day turnovers, linen change, restocking & photo-ready staging |
-| 🏢 **Office & Commercial** | Discreet, thorough office cleaning that works around your schedule |
-| 🏗️ **Post-Construction Cleanup** | Debris removal, floor scrubbing, window cleaning & final polish |
+|  **Home Cleaning** | Full residential cleaning — all rooms, kitchen, bathrooms, vacuuming & mopping |
+|  **Airbnb & Short-Stay Turnover** | Same-day turnovers, linen change, restocking & photo-ready staging |
+|  **Office & Commercial** | Discreet, thorough office cleaning that works around your schedule |
+|  **Post-Construction Cleanup** | Debris removal, floor scrubbing, window cleaning & final polish |
 
 ---
 
@@ -82,4 +82,4 @@ npm run preview
 
 ---
 
-© 2025 Sterlux Cleaning Company. All rights reserved.
+© 2026 Sterlux Cleaning Company. All rights reserved.
