@@ -78,7 +78,7 @@ export default function Footer() {
 
             <div className="footer-bottom">
                 <div className="container footer-bottom-inner">
-                    <p>© 2025 Sterlux Cleaning Company. All rights reserved.</p>
+                    <p>© 2026 Sterlux Cleaning Company. All rights reserved.</p>
                     <div className="footer-legal">
                         <a href="#" id="privacy-policy">Privacy Policy</a>
                         <a href="#" id="terms-of-service">Terms of Service</a>
