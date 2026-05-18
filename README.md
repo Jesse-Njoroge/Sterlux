@@ -75,9 +75,9 @@ npm run preview
 
 | | |
 |--|--|
-| 📞 Phone | [0710 735 329](tel:+254710735329) \| [0717 707 503](tel:+254717707503) |
-| 📧 Email | [sterluxcleaning@gmail.com](mailto:sterluxcleaning@gmail.com) |
-| 📍 Location | Nairobi, Kenya |
+| Phone | [0710 735 329](tel:+254710735329) \| [0717 707 503](tel:+254717707503) |
+| Email | [sterluxcleaning@gmail.com](mailto:sterluxcleaning@gmail.com) |
+| Location | Nairobi, Kenya |
 
 ---
 
