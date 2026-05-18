@@ -26,13 +26,13 @@
 
 ## Website Features
 
-- ✅ **Home Page** — Hero section, service overview, and "Why Sterlux" highlights
-- ✅ **About Page** — Company story, mission, certifications, and client testimonials
-- ✅ **Services Page** — Detailed breakdown of all packages with pricing
-- ✅ **Gallery Page** — Real job photos with category filters and a lightbox viewer
-- ✅ **Contact Page** — Inquiry form, direct contact info (phone/email), and embedded map
-- ✅ **WhatsApp Integration** — One-click WhatsApp booking button in the navbar
-- ✅ **Fully Responsive** — Optimised for mobile, tablet, and desktop
+- **Home Page** — Hero section, service overview, and "Why Sterlux" highlights
+- **About Page** — Company story, mission, certifications, and client testimonials
+- **Services Page** — Detailed breakdown of all packages with pricing
+- **Gallery Page** — Real job photos with category filters and a lightbox viewer
+- **Contact Page** — Inquiry form, direct contact info (phone/email), and embedded map
+- **WhatsApp Integration** — One-click WhatsApp booking button in the navbar
+- **Fully Responsive** — Optimised for mobile, tablet, and desktop
 
 ---
 
