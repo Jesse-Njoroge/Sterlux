@@ -8,7 +8,7 @@
 
 ## About
 
-**Sterlux Cleaning Company** is a premium cleaning services provider based in Nairobi, Kenya. This repository contains the official company website — built to help clients discover our services, view our work, and book a clean with ease.
+**Sterlux Cleaning Company** is a cleaning services provider based in Nairobi, Kenya. This repository contains the official company website — built to help clients discover our services, view our work, and book a clean with ease.
 
 
 ---
