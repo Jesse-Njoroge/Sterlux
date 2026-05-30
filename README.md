@@ -1,6 +1,6 @@
 # Sterlux Cleaning Company
 
-> **Professional Cleaning Services in Nairobi, Kenya**
+> **Professional Cleaning Services
 
 **Live Site:** [sterlux-cleaning-company.vercel.app](https://sterlux-cleaning-company.vercel.app)
 
