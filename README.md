@@ -1,4 +1,4 @@
-# Sterlux Cleaning Company
+Cleaning Company
 
 > **Professional Cleaning Services
 
