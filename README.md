@@ -44,7 +44,6 @@ Cleaning Company
 | [TypeScript](https://typescriptlang.org) | Type safety |
 | [Vite](https://vitejs.dev) | Build tool & dev server |
 | [React Router v7](https://reactrouter.com) | Client-side routing |
-| [Lucide React](https://lucide.dev) | Icons |
 | [Vercel](https://vercel.com) | Hosting & deployment |
 
 ---
