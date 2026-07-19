@@ -18,7 +18,7 @@ Cleaning Company
 |  **Home Cleaning** | Full residential cleaning — all rooms, kitchen, bathrooms, vacuuming & mopping |
 |  **Airbnb & Short-Stay Turnover** | Same-day turnovers, linen change, restocking & photo-ready staging |
 |  **Office & Commercial** | Discreet, thorough office cleaning that works around your schedule |
-|  **Post-Construction Cleanup** | Debris removal, floor scrubbing, window cleaning & final polish |
+|  **Post-Construction Cleanup** | Debris removal, floor scrubbing, window cleaning & final polish ||
 
 ---
 
