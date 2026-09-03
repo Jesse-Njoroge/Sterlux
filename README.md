@@ -30,7 +30,7 @@ Cleaning Company
 - **Gallery Page** — Real job photos with category filters and a lightbox viewer
 - **Contact Page** — Inquiry form, direct contact info (phone/email), and embedded map
 - **WhatsApp Integration** — One-click WhatsApp booking button in the navbar
-- **Fully Responsive** — Optimised for mobile, tablet, and desktop
+- **Fully Responsive** — Optimised for mobile, tablet, and desktop.
 
 ---
 
